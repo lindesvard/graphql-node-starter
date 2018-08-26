@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'blaranderna-api',
+      name: '',
       script: 'dist/src/index.js',
       instances: 'max',
       exec_mode: 'cluster',
@@ -14,10 +14,10 @@ module.exports = {
   deploy: {
     production: {
       user: 'web',
-      host: '37.139.16.117',
-      port: '22123',
+      host: '',
+      port: '',
       ref: 'origin/master',
-      repo: 'git@github.com:lindesvard/blaranderna-api.git',
+      repo: '',
       path: '/home/web/services/blaranderna-api',
       'post-deploy':
         'yarn install --production=false && yarn build && pm2 startOrRestart ecosystem.config.js --env production',

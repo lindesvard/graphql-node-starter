@@ -1,8 +1,8 @@
 {
-  "name": "blaranderna",
+  "name": "graphql-express-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "babel-node": "babel-node --presets=env",
     "build": "babel . -d dist --ignore spec.js,node_modules --quiet",
@@ -11,7 +11,7 @@
     "deploy:prod:setup": "pm2 deploy ecosystem.config.js production setup",
     "deploy:prod": "pm2 deploy ecosystem.config.js production"
   },
-  "author": "",
+  "author": "Carl-Gerhard Lindesvärd",
   "license": "ISC",
   "dependencies": {
     "apollo-fetch": "^0.7.0",
@@ -22,26 +22,16 @@
     "cors": "^2.8.4",
     "cross-env": "^5.1.6",
     "dataloader": "^1.4.0",
-    "dataloader-sequelize": "^1.7.2",
     "express": "^4.16.3",
     "graphql": "^0.13.2",
     "graphql-subscriptions": "^0.5.8",
     "graphql-tools": "^3.0.2",
     "graphql-type-json": "^0.2.1",
-    "jimp": "^0.3.7",
     "jsonwebtoken": "^8.2.2",
     "moment": "^2.22.2",
     "morgan": "^1.9.0",
-    "mssql": "^4.1.0",
-    "node-fetch": "^2.1.2",
     "pg": "^7.4.3",
-    "pluralize": "^7.0.0",
-    "request": "^2.87.0",
-    "request-promise": "^4.2.2",
-    "sequelize": "^4.37.10",
-    "sequelize-data-transfer": "^0.3.0",
-    "subscriptions-transport-ws": "^0.9.9",
-    "tedious": "^2.6.1"
+    "subscriptions-transport-ws": "^0.9.9"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

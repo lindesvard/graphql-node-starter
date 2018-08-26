@@ -1,8 +1,8 @@
 module.exports = {
   jwt: {
-    secret: '2if83djo385jods03785jehj39984jkryew783mhew84hjwt6!4if39',
+    secret: '2if83djo3853ods03785jehj319d4jkryew783mhew84hjwt6!4if39',
     refresh: {
-      secret: 'kl3m(3jsk&2k"djdnleujbwö"lw!mD8#8MlflJU)3mMfelwU3mdbLey',
+      secret: 'klsm(4jskf2k"djdnle5jbw5"lw!mDf#8MlflJU)3mMfe!wU3mdbLey',
     },
   },
 }

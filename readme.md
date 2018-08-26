@@ -1,9 +1,13 @@
-# Blaranderna 💛♥️💙
+# Express, ApolloServer 2, Subscription
+
+[x] ApolloServer 2
+[x] Subscriptions
+[x] Comes with accessToken and refreshToken support
+[x] Add any DB  ORM you want
 
 ## Before
 
 1. Use yarn instead of npm. `npm install -g yarn`
-2. Node 8.9 or higher 😀
 
 ## Development
 
